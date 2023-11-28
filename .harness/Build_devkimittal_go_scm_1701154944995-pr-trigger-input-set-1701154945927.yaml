@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_devkimittal_go_scm_1701154944995-pr-trigger-input-set
+  identifier: Build_devkimittal_go_scm_1701154944995prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CIEHackathonYAMLGen
+  pipeline:
+    identifier: Build_devkimittal_go_scm_1701154944995
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
