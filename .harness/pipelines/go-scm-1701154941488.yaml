@@ -6,9 +6,8 @@ pipeline:
   properties:
     ci:
       codebase:
+        connectorRef: goscm
         build: <+input>
-        connectorRef: account.devmittal
-        repoName: devkimittal/go-scm
   stages:
     - stage:
         identifier: build
